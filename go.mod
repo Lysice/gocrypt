@@ -1,4 +1,4 @@
-module github.com/Lysice/gocrypt
+module github.com/lysice/gocrypt
 
 go 1.21
 
