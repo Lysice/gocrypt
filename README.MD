@@ -1,8 +1,9 @@
 # Gocrypt
-https://pkg.go.dev/badge/github.com/lysice/gocrypt.svg
-https://goreportcard.com/badge/github.com/lysice/gocrypt
-https://img.shields.io/badge/license-MIT-blue.svg
-https://img.shields.io/github/v/release/lysice/gocrypt
+[![Go Reference](https://pkg.go.dev/badge/github.com/lysice/gocrypt.svg)](https://pkg.go.dev/github.com/lysice/gocrypt)
+[![Go Report Card](https://goreportcard.com/badge/github.com/lysice/gocrypt)](https://goreportcard.com/report/github.com/lysice/gocrypt)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![GitHub Release](https://img.shields.io/github/v/release/lysice/gocrypt)](https://github.com/lysice/gocrypt/releases)
+
 A pure Go implementation of the popular Java Jasypt library for simplified encryption of configuration values and sensitive data.
 
 ## Features
