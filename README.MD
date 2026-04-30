@@ -21,15 +21,6 @@ go get github.com/lysice/gocrypt
 
 ## Quick Start
 ```
-package gosypt
-
-import (
-	"fmt"
-	"log"
-
-	"github.com/lysice/gocrypt/encryption"
-)
-
 package main
 import (
 	"fmt"
@@ -187,33 +178,33 @@ config.Suffix = ")" // Custom suffix
 ## Command Line Interface
 ### 1.Installation
 ```
-go install github.com/lysice/gocrypt/cmd/gocrypt-cli@latest
+go install github.com/lysice/gocrypt/cmd/gocrypt@latest
 ```
 ### 2.Usage
 #### 2.1 Encrypt a value
 ```
-gocrypt-cli -action encrypt -password "my-secret" -value "sensitive-data"
+gocrypt -action encrypt -password "my-secret" -value "sensitive-data"
 ```
 
 #### 2.2 Decrypt a value
 ```
-gocrypt-cli -action decrypt -password "my-secret" -value "ENC(encrypted-string)"
+gocrypt -action decrypt -password "my-secret" -value "ENC(encrypted-string)"
 ```
 
 #### 2.3 With custom algorithm
 ```
-gocrypt-cli -action encrypt -algorithm PBEWithMD5AndDES -password "test" -value "data"
+gocrypt -action encrypt -algorithm PBEWithMD5AndDES -password "test" -value "data"
 ```
 
 #### 2.4 With hex output
 ```
-gocrypt-cli -action encrypt -output-type hex -password "test" -value "data"
+gocrypt -action encrypt -output-type hex -password "test" -value "data"
 ```
 
 #### 2.5 CLI Options
 ```
 Usage:
-gocrypt-cli [options]
+gocrypt [options]
 Options:
 1.-password string
         Encryption password (required)
